@@ -26,7 +26,7 @@
     		valorA++;
     
       		if (valorA>1) {
-        	valorA = 0;
+        		valorA = 0;
       		}
     	}
   
