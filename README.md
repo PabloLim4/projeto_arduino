@@ -27,17 +27,17 @@
     
       		if (valorA>1) {
         		valorA = 0;
-      		}
-    	}
+      		 }
+    		}
   
     		botaoAtu = digitalRead(botaoGreen);
     		if (botaoAtu && !botaoAnt) {
       		valorB--;
       
       		if (valorB<0) {
-        	valorB = 1;
-      		}
-    	}
+        		valorB = 1;
+      		 }
+    		}
   
     		botaoAnt = botaoAtu;
   
@@ -51,6 +51,6 @@
     		case 1:
     		digitalWrite(3, HIGH);
     		digitalWrite(2, LOW);
-		 break;
-  	 }
+			 break;
+  	      }
 	}
